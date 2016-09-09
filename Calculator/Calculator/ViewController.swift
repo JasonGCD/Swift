@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var display: UILabel!
     var userIsInTheMiddleOfTypingANumber:Bool = false//这里的bool和前面的冒号可以去掉
 
+    
+    
     @IBAction func appendDigit(sender: UIButton) {
         
         let digit = sender.currentTitle!
